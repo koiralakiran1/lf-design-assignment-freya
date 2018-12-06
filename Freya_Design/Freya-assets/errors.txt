@@ -1,0 +1,2 @@
+[12/6/2018, 8:42:51 AM] layer "Find Us On Google +": Expected end of input but "+" found.
+[12/6/2018, 8:42:51 AM] layer "Google +": Expected end of input but "+" found.
