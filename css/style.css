@@ -1,0 +1,21 @@
+header {
+  background-color: #efefef;
+}
+nav.sticky_navigation, footer {
+  background-color: #1c1105;
+  color: white;
+}
+.why_choose_youniverse {
+  background-color: #28231d;
+  color: white;
+}
+.get_our_discounts_left {
+  background-color: #f6f6f6;
+}
+.get_our_discounts_right {
+  background-color: #323232;
+  color: white;
+}
+.contact_us_section {
+  background-color: #f7f7f7;
+}

@@ -1,915 +1,921 @@
-  <!DOCTYPE html>
-  <html lang="en">
+<!DOCTYPE html>
+<html lang="en">
 
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Freya Template</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/layout.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <!-- <script src="./scripts/script.js" charset="utf-8"></script> -->
-  </head>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Freya Template</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./font-awesome/css/all.css">
+  <link rel="stylesheet" href="./css/layout.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  <!-- <script src="./scripts/script.js" charset="utf-8"></script> -->
+</head>
 
-  <body>
-    <div class="main_container">
-      <header>
-        <div class="top_header">
-          <nav class="non_sticky_navigation">
-            <img src="../images/logo.png" alt="Youniverse logo">
-            <ul>
-              <li>
-                <img src="./images/search_icon.png" alt="Search icon">
-                <!-- span and glyphicon?? -->
-                <!-- search form appears on clicking the image.
+<body>
+  <div class="main_container">
+    <header>
+      <div class="top_header">
+        <nav class="non_sticky_navigation">
+          <img src="./images/logo.png" alt="Youniverse logo" class="site_logo_image">
+          <ul class="clearfix">
+            <li>
+              <a href="#">
+                <i class="fas fa-search"></i>
+              </a>
+              <!-- span and glyphicon?? -->
+              <!-- search form appears on clicking the image.
                 form not shown in template -->
-                <form class="search_form">
-                  <input type="text" name="search_form" value="Search the site">
-                </form>
-              </li>
-              <li>
-                <img src="./images/shopping_cart_icon.png" alt="">
-                <!-- span and glyphicon?? -->
-                <span class="number_of_cart_items">00</span>
-                <sup>Items</sup>
-              </li>
-              <li>
-                <img src="./images/burger_icon.png" alt="">
-                <!-- span and glyphicon?? -->
-                <ul>
-                  <li>My Profile</li>
-                  <li>Account Settings
-              </li>
-              <li>Log Out</li>
-            </ul>
+              <form class="search_form">
+                <input type="text" name="search_form" value="Search the site">
+              </form>
             </li>
-            </ul>
-          </nav>
-          <div class="header_featured_products_container">
-            <div class="header_featured_products_inner">
-              <div class="header_featured_products_inner_slider">
-                <div class="featured_product">
-                  <!--This div has an image background of the featured product 1.
-                  TODO: one div extra??-->
-                  <div class="featured_product_overlay">
-                    <div class="featured_product_overlay_header">
-                      <h2>Featured Products</h2>
-                      <div class="featured_product_overlay_header_button">
-                        <button type="button" name="button">More Details</button>
-                        <span class="button_extra_design"></span>
-                      </div>
-                    </div>
-                    <ul class="featured_product_overlay_contents">
-                      <li>
-                        <img src="./images/davis_furniture_icon.png" alt="">
-                        <div class="featured_product_overlay_content_info">
-                          <h4>Davis Furniture</h4>
-                          <p>Leather Collection 2015</p>
-                        </div>
-                      </li>
-                      <li>
-                        <img src="./images/starting_price_icon.png" alt="">
-                        <div class="featured_product_overlay_content_info">
-                          <h4>Davis Furniture</h4>
-                          <p>Leather Collection 2015</p>
-                        </div>
-                      </li>
-                      <li>
-                        <img src="./images/color_alternatives.png" alt="">
-                        <div class="featured_product_overlay_content_info">
-                          <h4>Davis Furniture</h4>
-                          <p>Leather Collection 2015</p>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="featured_product">
-                  <!--This div has an image background of the featured product 1.
-                  TODO: one div extra??-->
-                  <div class="featured_product_overlay">
-                    <div class="featured_product_overlay_header">
-                      <h2>Featured Products</h2>
-                      <div class="featured_product_overlay_header_button">
-                        <button type="button" name="button">More Details</button>
-                        <span class="button_extra_design"></span>
-                      </div>
-                    </div>
-                    <ul class="featured_product_overlay_contents">
-                      <li>
-                        <img src="./images/davis_furniture_icon.png" alt="">
-                        <div class="featured_product_overlay_content_info">
-                          <h4>Davis Furniture</h4>
-                          <p>Leather Collection 2015</p>
-                        </div>
-                      </li>
-                      <li>
-                        <img src="./images/starting_price_icon.png" alt="">
-                        <div class="featured_product_overlay_content_info">
-                          <h4>Davis Furniture</h4>
-                          <p>Leather Collection 2015</p>
-                        </div>
-                      </li>
-                      <li>
-                        <img src="./images/color_alternatives.png" alt="">
-                        <div class="featured_product_overlay_content_info">
-                          <h4>Davis Furniture</h4>
-                          <p>Leather Collection 2015</p>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="featured_product">
-                  <!--This div has an image background of the featured product 1.
-                  TODO: one div extra??-->
-                  <div class="featured_product_overlay">
-                    <div class="featured_product_overlay_header">
-                      <h2>Featured Products</h2>
-                      <div class="featured_product_overlay_header_button">
-                        <button type="button" name="button">More Details</button>
-                        <span class="button_extra_design"></span>
-                      </div>
-                    </div>
-                    <ul class="featured_product_overlay_contents">
-                      <li>
-                        <img src="./images/davis_furniture_icon.png" alt="">
-                        <div class="featured_product_overlay_content_info">
-                          <h4>Davis Furniture</h4>
-                          <p>Leather Collection 2015</p>
-                        </div>
-                      </li>
-                      <li>
-                        <img src="./images/starting_price_icon.png" alt="">
-                        <div class="featured_product_overlay_content_info">
-                          <h4>Davis Furniture</h4>
-                          <p>Leather Collection 2015</p>
-                        </div>
-                      </li>
-                      <li>
-                        <img src="./images/color_alternatives.png" alt="">
-                        <div class="featured_product_overlay_content_info">
-                          <h4>Davis Furniture</h4>
-                          <p>Leather Collection 2015</p>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="featured_product">
-                  <!--This div has an image background of the featured product 1.
-                  TODO: one div extra??-->
-                  <div class="featured_product_overlay">
-                    <div class="featured_product_overlay_header">
-                      <h2>Featured Products</h2>
-                      <div class="featured_product_overlay_header_button">
-                        <button type="button" name="button">More Details</button>
-                        <span class="button_extra_design"></span>
-                      </div>
-                    </div>
-                    <ul class="featured_product_overlay_contents">
-                      <li>
-                        <img src="./images/davis_furniture_icon.png" alt="">
-                        <div class="featured_product_overlay_content_info">
-                          <h4>Davis Furniture</h4>
-                          <p>Leather Collection 2015</p>
-                        </div>
-                      </li>
-                      <li>
-                        <img src="./images/starting_price_icon.png" alt="">
-                        <div class="featured_product_overlay_content_info">
-                          <h4>Davis Furniture</h4>
-                          <p>Leather Collection 2015</p>
-                        </div>
-                      </li>
-                      <li>
-                        <img src="./images/color_alternatives.png" alt="">
-                        <div class="featured_product_overlay_content_info">
-                          <h4>Davis Furniture</h4>
-                          <p>Leather Collection 2015</p>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-                <div class="featured_product">
-                  <!--This div has an image background of the featured product 1.
-                  TODO: one div extra??-->
-                  <div class="featured_product_overlay">
-                    <div class="featured_product_overlay_header">
-                      <h2>Featured Products</h2>
-                      <div class="featured_product_overlay_header_button">
-                        <button type="button" name="button">More Details</button>
-                        <span class="button_extra_design"></span>
-                      </div>
-                    </div>
-                    <ul class="featured_product_overlay_contents">
-                      <li>
-                        <img src="./images/davis_furniture_icon.png" alt="">
-                        <div class="featured_product_overlay_content_info">
-                          <h4>Davis Furniture</h4>
-                          <p>Leather Collection 2015</p>
-                        </div>
-                      </li>
-                      <li>
-                        <img src="./images/starting_price_icon.png" alt="">
-                        <div class="featured_product_overlay_content_info">
-                          <h4>Davis Furniture</h4>
-                          <p>Leather Collection 2015</p>
-                        </div>
-                      </li>
-                      <li>
-                        <img src="./images/color_alternatives.png" alt="">
-                        <div class="featured_product_overlay_content_info">
-                          <h4>Davis Furniture</h4>
-                          <p>Leather Collection 2015</p>
-                        </div>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-              <div class="pentagon_button_right"></div>
-              <div class="pentagon_button_left"></div>
-            </div>
-          </div>
-        </div>
-        <nav class="sticky_navigation">
-          <ul>
-            <li>Home</li>
-            <li>About Us</li>
-            <li>Our Team</li>
-            <li>Portfolio</li>
-            <li>Our Blog</li>
-            <li>Our Products</li>
-            <li>Latest Collections</li>
+            <li class="shopping_cart_details">
+              <a href="#" class="clearfix">
+                <i class="fas fa-shopping-cart"></i><span class="number_of_cart_items">00</span><sup>Items</sup>
+                <!-- kept in same line because of unexpected 'white space only text node' automatic creation -->
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fas fa-bars"></i>
+                <!-- span and glyphicon?? -->
+              </a>
+              <ul>
+                <li>My Profile</li>
+                <li>Account Settings</li>
+                <li>Log Out</li>
+              </ul>
+            </li>
           </ul>
         </nav>
-      </header>
-
-      <main>
-        <div class="main_inner">
-          <div class="furniture_things_section">
-            <section class="furniture_showcase">
-              <div class="furniture_showcase_slider">
-                <ul>
-                  <li>
-                    <div class="furniture_shocase_item_overlay">
-                      <!-- relative position -->
-                      <h4>Sofas</h4>
-
-                      <div class="furniture_shocase_item_overlay_border_design">
-                        <!-- absolute position -->
-                        <button type="button" name="button">More Details</button>
-                        <span class="button_extra_design"></span>
-                      </div>
+        <div class="header_featured_products_container">
+          <div class="header_featured_products_inner">
+            <div class="header_featured_products_inner_slider clearfix">
+              <div class="featured_product">
+                <!--This div has an image background of the featured product 1.
+                  TODO: one div extra??-->
+                <div class="featured_product_overlay">
+                  <div class="featured_product_overlay_header clearfix">
+                    <h2>Featured Products</h2>
+                    <div class="featured_product_overlay_header_button">
+                      <button type="button" name="button">More Details</button>
+                      <span class="button_extra_design"></span>
                     </div>
-                  </li>
-                  <li>
-                    <div class="furniture_shocase_item_overlay">
-                      <!-- relative position -->
-                      <h4>Sofas</h4>
-
-                      <div class="furniture_shocase_item_overlay_border_design">
-                        <!-- absolute position -->
-                        <button type="button" name="button">More Details</button>
-                        <span class="button_extra_design"></span>
+                  </div>
+                  <ul class="featured_product_overlay_contents">
+                    <li class="clearfix">
+                      <img src="./images/davis_furniture_icon.png" alt="">
+                      <div class="featured_product_overlay_content_info">
+                        <h4>Davis Furniture</h4>
+                        <p>Leather Collection 2015</p>
                       </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="furniture_shocase_item_overlay">
-                      <!-- relative position -->
-                      <h4>Sofas</h4>
-
-                      <div class="furniture_shocase_item_overlay_border_design">
-                        <!-- absolute position -->
-                        <button type="button" name="button">More Details</button>
-                        <span class="button_extra_design"></span>
+                    </li>
+                    <li class="clearfix">
+                      <img src="./images/starting_price_icon.png" alt="">
+                      <div class="featured_product_overlay_content_info">
+                        <h4>Starting Price:</h4>
+                        <p>$399.00</p>
                       </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="furniture_shocase_item_overlay">
-                      <!-- relative position -->
-                      <h4>Sofas</h4>
-
-                      <div class="furniture_shocase_item_overlay_border_design">
-                        <!-- absolute position -->
-                        <button type="button" name="button">More Details</button>
-                        <span class="button_extra_design"></span>
+                    </li>
+                    <li class="clearfix">
+                      <img src="./images/color_alternatives.png" alt="">
+                      <div class="featured_product_overlay_content_info">
+                        <h4>Color Alternatives:</h4>
+                        <p>Brown, Black, White</p>
                       </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="furniture_shocase_item_overlay">
-                      <!-- relative position -->
-                      <h4>Sofas</h4>
-
-                      <div class="furniture_shocase_item_overlay_border_design">
-                        <!-- absolute position -->
-                        <button type="button" name="button">More Details</button>
-                        <span class="button_extra_design"></span>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="furniture_shocase_item_overlay">
-                      <!-- relative position -->
-                      <h4>Sofas</h4>
-
-                      <div class="furniture_shocase_item_overlay_border_design">
-                        <!-- absolute position -->
-                        <button type="button" name="button">More Details</button>
-                        <span class="button_extra_design"></span>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
+                    </li>
+                  </ul>
+                </div>
               </div>
-              <div class="furniture_showcase_slider_buttons">
-                <div class="pentagon_button_left"></div>
-                <div class="pentagon_button_right"></div>
+              <div class="featured_product">
+                <!--This div has an image background of the featured product 1.
+                  TODO: one div extra??-->
+                <div class="featured_product_overlay">
+                  <div class="featured_product_overlay_header clearfix">
+                    <h2>Featured Products</h2>
+                    <div class="featured_product_overlay_header_button">
+                      <button type="button" name="button">More Details</button>
+                      <span class="button_extra_design"></span>
+                    </div>
+                  </div>
+                  <ul class="featured_product_overlay_contents">
+                    <li class="clearfix">
+                      <img src="./images/davis_furniture_icon.png" alt="">
+                      <div class="featured_product_overlay_content_info">
+                        <h4>Davis Furniture</h4>
+                        <p>Leather Collection 2015</p>
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <img src="./images/starting_price_icon.png" alt="">
+                      <div class="featured_product_overlay_content_info">
+                        <h4>Starting Price:</h4>
+                        <p>$399.00</p>
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <img src="./images/color_alternatives.png" alt="">
+                      <div class="featured_product_overlay_content_info">
+                        <h4>Color Alternatives:</h4>
+                        <p>Brown, Black, White</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
               </div>
-            </section>
-            <section class="latest_furniture">
-              <h2>Latest Furniture</h2>
+              <div class="featured_product">
+                <!--This div has an image background of the featured product 1.
+                  TODO: one div extra??-->
+                <div class="featured_product_overlay">
+                  <div class="featured_product_overlay_header clearfix">
+                    <h2>Featured Products</h2>
+                    <div class="featured_product_overlay_header_button">
+                      <button type="button" name="button">More Details</button>
+                      <span class="button_extra_design"></span>
+                    </div>
+                  </div>
+                  <ul class="featured_product_overlay_contents">
+                    <li class="clearfix">
+                      <img src="./images/davis_furniture_icon.png" alt="">
+                      <div class="featured_product_overlay_content_info">
+                        <h4>Davis Furniture</h4>
+                        <p>Leather Collection 2015</p>
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <img src="./images/starting_price_icon.png" alt="">
+                      <div class="featured_product_overlay_content_info">
+                        <h4>Starting Price:</h4>
+                        <p>$399.00</p>
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <img src="./images/color_alternatives.png" alt="">
+                      <div class="featured_product_overlay_content_info">
+                        <h4>Color Alternatives:</h4>
+                        <p>Brown, Black, White</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="featured_product">
+                <!--This div has an image background of the featured product 1.
+                  TODO: one div extra??-->
+                <div class="featured_product_overlay">
+                  <div class="featured_product_overlay_header clearfix">
+                    <h2>Featured Products</h2>
+                    <div class="featured_product_overlay_header_button">
+                      <button type="button" name="button">More Details</button>
+                      <span class="button_extra_design"></span>
+                    </div>
+                  </div>
+                  <ul class="featured_product_overlay_contents">
+                    <li class="clearfix">
+                      <img src="./images/davis_furniture_icon.png" alt="">
+                      <div class="featured_product_overlay_content_info">
+                        <h4>Davis Furniture</h4>
+                        <p>Leather Collection 2015</p>
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <img src="./images/starting_price_icon.png" alt="">
+                      <div class="featured_product_overlay_content_info">
+                        <h4>Starting Price:</h4>
+                        <p>$399.00</p>
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <img src="./images/color_alternatives.png" alt="">
+                      <div class="featured_product_overlay_content_info">
+                        <h4>Color Alternatives:</h4>
+                        <p>Brown, Black, White</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="featured_product">
+                <!--This div has an image background of the featured product 1.
+                  TODO: one div extra??-->
+                <div class="featured_product_overlay">
+                  <div class="featured_product_overlay_header clearfix">
+                    <h2>Featured Products</h2>
+                    <div class="featured_product_overlay_header_button">
+                      <button type="button" name="button">More Details</button>
+                      <span class="button_extra_design"></span>
+                    </div>
+                  </div>
+                  <ul class="featured_product_overlay_contents">
+                    <li class="clearfix">
+                      <img src="./images/davis_furniture_icon.png" alt="">
+                      <div class="featured_product_overlay_content_info">
+                        <h4>Davis Furniture</h4>
+                        <p>Leather Collection 2015</p>
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <img src="./images/starting_price_icon.png" alt="">
+                      <div class="featured_product_overlay_content_info">
+                        <h4>Starting Price:</h4>
+                        <p>$399.00</p>
+                      </div>
+                    </li>
+                    <li class="clearfix">
+                      <img src="./images/color_alternatives.png" alt="">
+                      <div class="featured_product_overlay_content_info">
+                        <h4>Color Alternatives:</h4>
+                        <p>Brown, Black, White</p>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="pentagon_button_right"></div>
+            <div class="pentagon_button_left"></div>
+          </div>
+        </div>
+      </div>
+      <nav class="sticky_navigation">
+        <ul>
+          <li>Home</li>
+          <li>About Us</li>
+          <li>Our Team</li>
+          <li>Portfolio</li>
+          <li>Our Blog</li>
+          <li>Our Products</li>
+          <li>Latest Collections</li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="main_inner">
+        <div class="furniture_things_section">
+          <section class="furniture_showcase">
+            <div class="furniture_showcase_slider">
               <ul>
                 <li>
-                  <div class="latest_furniture_item_descriptions">
-                    <span class="latest_furniture_item_tag">Promo</span>
-                    <img src="./images/devons_collection.png" alt="Devons Collection">
-                    <h3>Devon's Collection</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      saldfjaljfie jfwioejflajfio joijojweofjaldfj
-                      ajflkwjeiofjaofjlwejef ojwoijaljf
-                    </p>
-                    <span class="latest_furniture_item_price">$459.99</span>
+                  <div class="furniture_shocase_item_overlay">
+                    <!-- relative position -->
+                    <h4>Sofas</h4>
+
+                    <div class="furniture_shocase_item_overlay_border_design">
+                      <!-- absolute position -->
+                      <button type="button" name="button">More Details</button>
+                      <span class="button_extra_design"></span>
+                    </div>
                   </div>
-                  <button type="button" name="button">
-                    <span>
-                      <!-- add to cart icon -->
-                    </span>
-                    Add To Cart
-                  </button>
                 </li>
                 <li>
-                  <div class="latest_furniture_item_descriptions">
-                    <span class="latest_furniture_item_tag">Promo</span>
-                    <img src="./images/devons_collection.png" alt="Devons Collection">
-                    <h3>Devon's Collection</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      saldfjaljfie jfwioejflajfio joijojweofjaldfj
-                      ajflkwjeiofjaofjlwejef ojwoijaljf
-                    </p>
-                    <span class="latest_furniture_item_price">$459.99</span>
+                  <div class="furniture_shocase_item_overlay">
+                    <!-- relative position -->
+                    <h4>Sofas</h4>
+
+                    <div class="furniture_shocase_item_overlay_border_design">
+                      <!-- absolute position -->
+                      <button type="button" name="button">More Details</button>
+                      <span class="button_extra_design"></span>
+                    </div>
                   </div>
-                  <button type="button" name="button">
-                    <span>
-                      <!-- add to cart icon -->
-                    </span>
-                    Add To Cart
-                  </button>
                 </li>
                 <li>
-                  <div class="latest_furniture_item_descriptions">
-                    <span class="latest_furniture_item_tag">Promo</span>
-                    <img src="./images/devons_collection.png" alt="Devons Collection">
-                    <h3>Devon's Collection</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      saldfjaljfie jfwioejflajfio joijojweofjaldfj
-                      ajflkwjeiofjaofjlwejef ojwoijaljf
-                    </p>
-                    <span class="latest_furniture_item_price">$459.99</span>
+                  <div class="furniture_shocase_item_overlay">
+                    <!-- relative position -->
+                    <h4>Sofas</h4>
+
+                    <div class="furniture_shocase_item_overlay_border_design">
+                      <!-- absolute position -->
+                      <button type="button" name="button">More Details</button>
+                      <span class="button_extra_design"></span>
+                    </div>
                   </div>
-                  <button type="button" name="button">
-                    <span>
-                      <!-- add to cart icon -->
-                    </span>
-                    Add To Cart
-                  </button>
                 </li>
                 <li>
-                  <div class="latest_furniture_item_descriptions">
-                    <span class="latest_furniture_item_tag">Promo</span>
-                    <img src="./images/devons_collection.png" alt="Devons Collection">
-                    <h3>Devon's Collection</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      saldfjaljfie jfwioejflajfio joijojweofjaldfj
-                      ajflkwjeiofjaofjlwejef ojwoijaljf
-                    </p>
-                    <span class="latest_furniture_item_price">$459.99</span>
+                  <div class="furniture_shocase_item_overlay">
+                    <!-- relative position -->
+                    <h4>Sofas</h4>
+
+                    <div class="furniture_shocase_item_overlay_border_design">
+                      <!-- absolute position -->
+                      <button type="button" name="button">More Details</button>
+                      <span class="button_extra_design"></span>
+                    </div>
                   </div>
-                  <button type="button" name="button">
-                    <span>
-                      <!-- add to cart icon -->
-                    </span>
-                    Add To Cart
-                  </button>
+                </li>
+                <li>
+                  <div class="furniture_shocase_item_overlay">
+                    <!-- relative position -->
+                    <h4>Sofas</h4>
+
+                    <div class="furniture_shocase_item_overlay_border_design">
+                      <!-- absolute position -->
+                      <button type="button" name="button">More Details</button>
+                      <span class="button_extra_design"></span>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="furniture_shocase_item_overlay">
+                    <!-- relative position -->
+                    <h4>Sofas</h4>
+
+                    <div class="furniture_shocase_item_overlay_border_design">
+                      <!-- absolute position -->
+                      <button type="button" name="button">More Details</button>
+                      <span class="button_extra_design"></span>
+                    </div>
+                  </div>
                 </li>
               </ul>
-            </section>
+            </div>
+            <div class="furniture_showcase_slider_buttons">
+              <div class="pentagon_button_left"></div>
+              <div class="pentagon_button_right"></div>
+            </div>
+          </section>
+          <section class="latest_furniture">
+            <h2>Latest Furniture</h2>
+            <ul>
+              <li>
+                <div class="latest_furniture_item_descriptions">
+                  <span class="latest_furniture_item_tag">Promo</span>
+                  <img src="./images/devons_collection.png" alt="Devons Collection">
+                  <h3>Devon's Collection</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    saldfjaljfie jfwioejflajfio joijojweofjaldfj
+                    ajflkwjeiofjaofjlwejef ojwoijaljf
+                  </p>
+                  <span class="latest_furniture_item_price">$459.99</span>
+                </div>
+                <button type="button" name="button">
+                  <span>
+                    <!-- add to cart icon -->
+                  </span>
+                  Add To Cart
+                </button>
+              </li>
+              <li>
+                <div class="latest_furniture_item_descriptions">
+                  <span class="latest_furniture_item_tag">Promo</span>
+                  <img src="./images/devons_collection.png" alt="Devons Collection">
+                  <h3>Devon's Collection</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    saldfjaljfie jfwioejflajfio joijojweofjaldfj
+                    ajflkwjeiofjaofjlwejef ojwoijaljf
+                  </p>
+                  <span class="latest_furniture_item_price">$459.99</span>
+                </div>
+                <button type="button" name="button">
+                  <span>
+                    <!-- add to cart icon -->
+                  </span>
+                  Add To Cart
+                </button>
+              </li>
+              <li>
+                <div class="latest_furniture_item_descriptions">
+                  <span class="latest_furniture_item_tag">Promo</span>
+                  <img src="./images/devons_collection.png" alt="Devons Collection">
+                  <h3>Devon's Collection</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    saldfjaljfie jfwioejflajfio joijojweofjaldfj
+                    ajflkwjeiofjaofjlwejef ojwoijaljf
+                  </p>
+                  <span class="latest_furniture_item_price">$459.99</span>
+                </div>
+                <button type="button" name="button">
+                  <span>
+                    <!-- add to cart icon -->
+                  </span>
+                  Add To Cart
+                </button>
+              </li>
+              <li>
+                <div class="latest_furniture_item_descriptions">
+                  <span class="latest_furniture_item_tag">Promo</span>
+                  <img src="./images/devons_collection.png" alt="Devons Collection">
+                  <h3>Devon's Collection</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    saldfjaljfie jfwioejflajfio joijojweofjaldfj
+                    ajflkwjeiofjaofjlwejef ojwoijaljf
+                  </p>
+                  <span class="latest_furniture_item_price">$459.99</span>
+                </div>
+                <button type="button" name="button">
+                  <span>
+                    <!-- add to cart icon -->
+                  </span>
+                  Add To Cart
+                </button>
+              </li>
+            </ul>
+          </section>
+        </div>
+        <section class="why_choose_youniverse">
+          <div class="why_choose_youniverse_inner">
+            <!-- extra div??   -->
+            <div class="why_choose_youniverse_content">
+              <!-- title -->
+              <div class="why_choose_youniverse_content_title">
+                <h2>Why Choose Youniverse?</h2>
+                <p> The reason most people do not recognize an opportunity when
+                  they meet it is because it usually goes around wearing overalls
+                  and looking like Hard Work.
+                </p>
+              </div>
+              <div class="why_choose_youniverse_content_description">
+                <div class="why_choose_youniverse_content_dropdown1">
+                  <h4>Awesome Work</h4>
+                  <span class="button_extra_design"></span>
+                </div>
+                <div class="why_choose_youniverse_content_dropdown2">
+                  <h4>Nice & Creative Design</h4>
+                  <span class="button_extra_design"></span>
+                </div>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                  eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                  ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                  aliquip ex ea commodo consequat.
+                </p>
+                <div class="why_choose_youniverse_content_dropdown3">
+                  <h4>Plenty Of Pages</h4>
+                  <span class="button_extra_design"></span>
+                </div>
+              </div>
+            </div>
           </div>
-          <section class="why_choose_youniverse">
-            <div class="why_choose_youniverse_inner">
-              <!-- extra div??   -->
-              <div class="why_choose_youniverse_content">
-                <!-- title -->
-                <div class="why_choose_youniverse_content_title">
-                  <h2>Why Choose Youniverse?</h2>
-                  <p> The reason most people do not recognize an opportunity when
-                    they meet it is because it usually goes around wearing overalls
-                    and looking like Hard Work.
-                  </p>
-                </div>
-                <div class="why_choose_youniverse_content_description">
-                  <div class="why_choose_youniverse_content_dropdown1">
-                    <h4>Awesome Work</h4>
-                    <span class="button_extra_design"></span>
+        </section>
+        <section class="latest_posts">
+          <div class="latest_posts_inner">
+            <div class="latest_posts_section_title">
+              <h2>Latest Posts</h2>
+            </div>
+            <div class="latest_posts_content">
+              <ul>
+                <li>
+                  <div class="latest_posts_content_image">
+                    <img src="./images/outdoor_furniture.png" alt="Outdooor furniture">
+                    <div class="latest_posts_content_image_overlay">
+                      <!-- + sign on hover, position absolute -->
+                    </div>
                   </div>
-                  <div class="why_choose_youniverse_content_dropdown2">
-                    <h4>Nice & Creative Design</h4>
-                    <span class="button_extra_design"></span>
+                  <div class="latest_posts_content_item_description">
+                    <div class="latest_posts_date">
+                      <span>19</span>
+                      <span>Sep</span>
+                    </div>
+                    <div class="latest_posts_content_item_abouts">
+                      <h3>Outdoor Furniture</h3>
+                      <ul>
+                        <li>by <span>Janet456</span></li>
+                        <li>in <span>Outdoor</span></li>
+                        <li><span>4 comments</span></li>
+                      </ul>
+                      <p>Proin et tempus eros, Aliquam erat voilutui pat.
+                        Praesent vulputate in mi at.
+                      </p>
+                    </div>
                   </div>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
-                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip ex ea commodo consequat.
-                  </p>
-                  <div class="why_choose_youniverse_content_dropdown3">
-                    <h4>Plenty Of Pages</h4>
-                    <span class="button_extra_design"></span>
+                </li>
+                <li>
+                  <div class="latest_posts_content_image">
+                    <img src="./images/outdoor_furniture.png" alt="Outdooor furniture">
+                    <div class="latest_posts_content_image_overlay">
+                      <!-- + sign on hover, position absolute -->
+                    </div>
                   </div>
-                </div>
+                  <div class="latest_posts_content_item_description">
+                    <div class="latest_posts_date">
+                      <span>19</span>
+                      <span>Sep</span>
+                    </div>
+                    <div class="latest_posts_content_item_abouts">
+                      <h3>Outdoor Furniture</h3>
+                      <ul>
+                        <li>by <span>Janet456</span></li>
+                        <li>in <span>Outdoor</span></li>
+                        <li><span>4 comments</span></li>
+                      </ul>
+                      <p>Proin et tempus eros, Aliquam erat voilutui pat.
+                        Praesent vulputate in mi at.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="latest_posts_content_image">
+                    <img src="./images/outdoor_furniture.png" alt="Outdooor furniture">
+                    <div class="latest_posts_content_image_overlay">
+                      <!-- + sign on hover, position absolute -->
+                    </div>
+                  </div>
+                  <div class="latest_posts_content_item_description">
+                    <div class="latest_posts_date">
+                      <span>19</span>
+                      <span>Sep</span>
+                    </div>
+                    <div class="latest_posts_content_item_abouts">
+                      <h3>Outdoor Furniture</h3>
+                      <ul>
+                        <li>by <span>Janet456</span></li>
+                        <li>in <span>Outdoor</span></li>
+                        <li><span>4 comments</span></li>
+                      </ul>
+                      <p>Proin et tempus eros, Aliquam erat voilutui pat.
+                        Praesent vulputate in mi at.
+                      </p>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="get_our_discounts">
+          <div class="get_our_discounts_left">
+          </div>
+          <div class="get_our_discounts_right">
+            <div class="get_our_discounts_right_inner">
+              <h2>Get Our Discounts</h2>
+              <div class="get_our_discounts_right_form_container">
+                <p>He who would learn to fly one day must first learn to stand
+                  and walk and run and climb and dance: one cannot fly into flying
+                </p>
+                <form class="get_our_discounts_form">
+                  <input type="text" name="discount_form_name" value="Your Name">
+                  <input type="text" name="discount_form_email" value="Your E-mail">
+                  <button type="button" name="button">Subscribe
+                    <span class="button_extra_design"></span>
+                  </button>
+                </form>
               </div>
             </div>
-          </section>
-          <section class="latest_posts">
-            <div class="latest_posts_inner">
-              <div class="latest_posts_section_title">
-                <h2>Latest Posts</h2>
-              </div>
-              <div class="latest_posts_content">
-                <ul>
-                  <li>
-                    <div class="latest_posts_content_image">
-                      <img src="./images/outdoor_furniture.png" alt="Outdooor furniture">
-                      <div class="latest_posts_content_image_overlay">
-                        <!-- + sign on hover, position absolute -->
-                      </div>
-                    </div>
-                    <div class="latest_posts_content_item_description">
-                      <div class="latest_posts_date">
-                        <span>19</span>
-                        <span>Sep</span>
-                      </div>
-                      <div class="latest_posts_content_item_abouts">
-                        <h3>Outdoor Furniture</h3>
-                        <ul>
-                          <li>by <span>Janet456</span></li>
-                          <li>in <span>Outdoor</span></li>
-                          <li><span>4 comments</span></li>
-                        </ul>
-                        <p>Proin et tempus eros, Aliquam erat voilutui pat.
-                          Praesent vulputate in mi at.
-                        </p>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="latest_posts_content_image">
-                      <img src="./images/outdoor_furniture.png" alt="Outdooor furniture">
-                      <div class="latest_posts_content_image_overlay">
-                        <!-- + sign on hover, position absolute -->
-                      </div>
-                    </div>
-                    <div class="latest_posts_content_item_description">
-                      <div class="latest_posts_date">
-                        <span>19</span>
-                        <span>Sep</span>
-                      </div>
-                      <div class="latest_posts_content_item_abouts">
-                        <h3>Outdoor Furniture</h3>
-                        <ul>
-                          <li>by <span>Janet456</span></li>
-                          <li>in <span>Outdoor</span></li>
-                          <li><span>4 comments</span></li>
-                        </ul>
-                        <p>Proin et tempus eros, Aliquam erat voilutui pat.
-                          Praesent vulputate in mi at.
-                        </p>
-                      </div>
-                    </div>
-                  </li>
-                  <li>
-                    <div class="latest_posts_content_image">
-                      <img src="./images/outdoor_furniture.png" alt="Outdooor furniture">
-                      <div class="latest_posts_content_image_overlay">
-                        <!-- + sign on hover, position absolute -->
-                      </div>
-                    </div>
-                    <div class="latest_posts_content_item_description">
-                      <div class="latest_posts_date">
-                        <span>19</span>
-                        <span>Sep</span>
-                      </div>
-                      <div class="latest_posts_content_item_abouts">
-                        <h3>Outdoor Furniture</h3>
-                        <ul>
-                          <li>by <span>Janet456</span></li>
-                          <li>in <span>Outdoor</span></li>
-                          <li><span>4 comments</span></li>
-                        </ul>
-                        <p>Proin et tempus eros, Aliquam erat voilutui pat.
-                          Praesent vulputate in mi at.
-                        </p>
-                      </div>
-                    </div>
-                  </li>
-                </ul>
-              </div>
+          </div>
+        </section>
+        <section class="newest_collections">
+          <div class="newest_collections_inner">
+            <h2>Newest Collections</h2>
+            <nav class="newest_collections_navigation">
+              <ul>
+                <li>All</li>
+                <li>Craigson</li>
+                <li>Filly's Co.</li>
+                <li>Sayonara</li>
+                <li>Jameson</li>
+              </ul>
+            </nav>
+            <div class="newest_collections_content">
+              <ul>
+                <li>
+                  <img src="./images/donatella_collection.png" alt="donatella collection">
+                  <div class="newest_collection_item_overlay">
+                    <h4>Donatella Collection</h4>
+                    <span>$598.00</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incidid
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <img src="./images/donatella_collection.png" alt="donatella collection">
+                  <div class="newest_collection_item_overlay">
+                    <h4>Donatella Collection</h4>
+                    <span>$598.00</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incidid
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <img src="./images/donatella_collection.png" alt="donatella collection">
+                  <div class="newest_collection_item_overlay">
+                    <h4>Donatella Collection</h4>
+                    <span>$598.00</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incidid
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <img src="./images/donatella_collection.png" alt="donatella collection">
+                  <div class="newest_collection_item_overlay">
+                    <h4>Donatella Collection</h4>
+                    <span>$598.00</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incidid
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <img src="./images/donatella_collection.png" alt="donatella collection">
+                  <div class="newest_collection_item_overlay">
+                    <h4>Donatella Collection</h4>
+                    <span>$598.00</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incidid
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <img src="./images/donatella_collection.png" alt="donatella collection">
+                  <div class="newest_collection_item_overlay">
+                    <h4>Donatella Collection</h4>
+                    <span>$598.00</span>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                      sed do eiusmod tempor incidid
+                    </p>
+                  </div>
+                </li>
+              </ul>
             </div>
-          </section>
-          <section class="get_our_discounts">
-            <div class="get_our_discounts_left">
-            </div>
-            <div class="get_our_discounts_right">
-              <div class="get_our_discounts_right_inner">
-                <h2>Get Our Discounts</h2>
-                <div class="get_our_discounts_right_form_container">
-                  <p>He who would learn to fly one day must first learn to stand
-                    and walk and run and climb and dance: one cannot fly into flying
-                  </p>
-                  <form class="get_our_discounts_form">
-                    <input type="text" name="discount_form_name" value="Your Name">
-                    <input type="text" name="discount_form_email" value="Your E-mail">
-                    <button type="button" name="button">Subscribe
-                      <span class="button_extra_design"></span>
-                    </button>
-                  </form>
-                </div>
-              </div>
-            </div>
-          </section>
-          <section class="newest_collections">
-            <div class="newest_collections_inner">
-              <h2>Newest Collections</h2>
-              <nav class="newest_collections_navigation">
-                <ul>
-                  <li>All</li>
-                  <li>Craigson</li>
-                  <li>Filly's Co.</li>
-                  <li>Sayonara</li>
-                  <li>Jameson</li>
-                </ul>
-              </nav>
-              <div class="newest_collections_content">
-                <ul>
-                  <li>
-                    <img src="./images/donatella_collection.png" alt="donatella collection">
-                    <div class="newest_collection_item_overlay">
-                      <h4>Donatella Collection</h4>
-                      <span>$598.00</span>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                        sed do eiusmod tempor incidid
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <img src="./images/donatella_collection.png" alt="donatella collection">
-                    <div class="newest_collection_item_overlay">
-                      <h4>Donatella Collection</h4>
-                      <span>$598.00</span>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                        sed do eiusmod tempor incidid
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <img src="./images/donatella_collection.png" alt="donatella collection">
-                    <div class="newest_collection_item_overlay">
-                      <h4>Donatella Collection</h4>
-                      <span>$598.00</span>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                        sed do eiusmod tempor incidid
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <img src="./images/donatella_collection.png" alt="donatella collection">
-                    <div class="newest_collection_item_overlay">
-                      <h4>Donatella Collection</h4>
-                      <span>$598.00</span>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                        sed do eiusmod tempor incidid
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <img src="./images/donatella_collection.png" alt="donatella collection">
-                    <div class="newest_collection_item_overlay">
-                      <h4>Donatella Collection</h4>
-                      <span>$598.00</span>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                        sed do eiusmod tempor incidid
-                      </p>
-                    </div>
-                  </li>
-                  <li>
-                    <img src="./images/donatella_collection.png" alt="donatella collection">
-                    <div class="newest_collection_item_overlay">
-                      <h4>Donatella Collection</h4>
-                      <span>$598.00</span>
-                      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                        sed do eiusmod tempor incidid
-                      </p>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </section>
-          <div class="contact_us_section">
-            <div class="contact_us_inner">
-              <div class="contact_us_inner_content">
-                <div class="contact_us_left_contacts_container">
-                  <dl class="contact_us_contacts_list">
-                    <dt>
-                      Contact
-                    </dt>
-                    <dd>Get in touch with us</dd>
+          </div>
+        </section>
+        <div class="contact_us_section">
+          <div class="contact_us_inner">
+            <div class="contact_us_inner_content">
+              <div class="contact_us_left_contacts_container">
+                <dl class="contact_us_contacts_list">
+                  <dt>
+                    Contact
+                  </dt>
+                  <dd>Get in touch with us</dd>
 
-                    <dt>
-                      Our Address
-                    </dt>
-                    <dd>251 Washington Avenue</dd>
-                    <dd>Jackson, MS 39208</dd>
+                  <dt>
+                    Our Address
+                  </dt>
+                  <dd>251 Washington Avenue</dd>
+                  <dd>Jackson, MS 39208</dd>
 
-                    <dt>Our Phone Numbers</dt>
-                    <dd>601-933-2116</dd>
-                    <dd>601-933-2875</dd>
+                  <dt>Our Phone Numbers</dt>
+                  <dd>601-933-2116</dd>
+                  <dd>601-933-2875</dd>
 
-                    <dt>E-mail Us</dt>
-                    <dd>601-933-2116</dd>
-                    <dd>601-933-2875</dd>
-                  </dl>
-                </div>
-                <div class="contact_us_form_container">
-                  <form class="contact_us_form">
-                    <input type="text" name="contact_us_form_name" value="Name">
-                    <input type="text" name="contact_us_form_email" value="E-mail">
-                    <input type="text" name="contact_us_form_subject" value="Subject">
-                    <textarea rows="8" cols="80">
+                  <dt>E-mail Us</dt>
+                  <dd>601-933-2116</dd>
+                  <dd>601-933-2875</dd>
+                </dl>
+              </div>
+              <div class="contact_us_form_container">
+                <form class="contact_us_form">
+                  <input type="text" name="contact_us_form_name" value="Name">
+                  <input type="text" name="contact_us_form_email" value="E-mail">
+                  <input type="text" name="contact_us_form_subject" value="Subject">
+                  <textarea rows="8" cols="80">
                       How Can We Help?
                     </textarea>
-                    <div class="contact_us_form_button_container">
-                      <button type="button" name="button">
-                        Send Now
-                        <span class="button_extra_design"></span>
-                      </button>
-                    </div>
-                  </form>
+                  <div class="contact_us_form_button_container">
+                    <button type="button" name="button">
+                      Send Now
+                      <span class="button_extra_design"></span>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="footer_inner">
+        <div class="footer_inner_top">
+          <div class="footer_about_us">
+            <div class="footer_about_us_description">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+              <span class="footer_about_us_description_read_more">Read More</span>
+            </div>
+            <div class="footer_about_us_social_links">
+              <!-- extra div to wrap ul?? -->
+              <ul>
+                <li>
+                  <img src="./images/find_us_icon.png" alt="Find Us On Facebook">
+                  <div class="footer_social_link_content">
+                    <h3>Find Us</h3>
+                    <h4>On Facebook</h4>
+                  </div>
+                </li>
+                <li>
+                  <img src="./images/find_us_icon.png" alt="Find Us On Facebook">
+                  <div class="footer_social_link_content">
+                    <h3>Find Us</h3>
+                    <h4>On Facebook</h4>
+                  </div>
+                </li>
+                <li>
+                  <img src="./images/find_us_icon.png" alt="Find Us On Facebook">
+                  <div class="footer_social_link_content">
+                    <h3>Find Us</h3>
+                    <h4>On Facebook</h4>
+                  </div>
+                </li>
+                <li>
+                  <img src="./images/find_us_icon.png" alt="Find Us On Facebook">
+                  <div class="footer_social_link_content">
+                    <h3>Find Us</h3>
+                    <h4>On Facebook</h4>
+                  </div>
+                </li>
+                <li>
+                  <img src="./images/find_us_icon.png" alt="Find Us On Facebook">
+                  <div class="footer_social_link_content">
+                    <h3>Find Us</h3>
+                    <h4>On Facebook</h4>
+                  </div>
+                </li>
+                <li>
+                  <img src="./images/find_us_icon.png" alt="Find Us On Facebook">
+                  <div class="footer_social_link_content">
+                    <h3>Find Us</h3>
+                    <h4>On Facebook</h4>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer_latest_products">
+            <h2>Latest Products</h2>
+            <ul>
+              <li>
+                <img src="./images/jameson_armchair.png" alt="">
+                <div class="single_latest_product_descriptions">
+                  <h3>Jameson Armchair</h3>
+                  <div class="single_latest_product_rating">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <p>$124.00<span class="latest_product_new_price">$109.99</span></p>
+                  <!-- <p><s>$124.00</s><span>$109.99</span></p> -->
                 </div>
-              </div>
-            </div>
+              </li>
+              <li>
+                <img src="./images/jameson_armchair.png" alt="">
+                <div class="single_latest_product_descriptions">
+                  <h3>Jameson Armchair</h3>
+                  <div class="single_latest_product_rating">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <p>$124.00<span class="latest_product_new_price">$109.99</span></p>
+                  <!-- <p><s>$124.00</s><span>$109.99</span></p> -->
+                </div>
+              </li>
+              <li>
+                <img src="./images/jameson_armchair.png" alt="">
+                <div class="single_latest_product_descriptions">
+                  <h3>Jameson Armchair</h3>
+                  <div class="single_latest_product_rating">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <p>$124.00<span class="latest_product_new_price">$109.99</span></p>
+                  <!-- <p><s>$124.00</s><span>$109.99</span></p> -->
+                </div>
+              </li>
+              <li>
+                <img src="./images/jameson_armchair.png" alt="">
+                <div class="single_latest_product_descriptions">
+                  <h3>Jameson Armchair</h3>
+                  <div class="single_latest_product_rating">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <p>$124.00<span class="latest_product_new_price">$109.99</span></p>
+                  <!-- <p><s>$124.00</s><span>$109.99</span></p> -->
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_top_sellers">
+            <h2>Top Sellers</h2>
+            <ul>
+              <li>
+                <img src="./images/green_sofa.png" alt="">
+                <div class="single_top_seller_descriptions">
+                  <h3>Jameson Armchair</h3>
+                  <div class="single_top_seller_rating">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <p>$124.00<span class="top_seller_new_price">$109.99</span></p>
+                  <!-- <p><s>$124.00</s><span>$109.99</span></p> -->
+                </div>
+              </li>
+              <li>
+                <img src="./images/jameson_armchair.png" alt="">
+                <div class="single_top_seller_descriptions">
+                  <h3>Jameson Armchair</h3>
+                  <div class="single_top_seller_rating">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <p>$124.00<span class="top_seller_new_price">$109.99</span></p>
+                  <!-- <p><s>$124.00</s><span>$109.99</span></p> -->
+                </div>
+              </li>
+              <li>
+                <img src="./images/jameson_armchair.png" alt="">
+                <div class="single_top_seller_descriptions">
+                  <h3>Jameson Armchair</h3>
+                  <div class="single_top_seller_rating">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <p>$124.00<span class="top_seller_new_price">$109.99</span></p>
+                  <!-- <p><s>$124.00</s><span>$109.99</span></p> -->
+                </div>
+              </li>
+              <li>
+                <img src="./images/jameson_armchair.png" alt="">
+                <div class="single_top_seller_descriptions">
+                  <h3>Jameson Armchair</h3>
+                  <div class="single_top_seller_rating">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                  </div>
+                  <p>$124.00<span class="top_seller_new_price">$109.99</span></p>
+                  <!-- <p><s>$124.00</s><span>$109.99</span></p> -->
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_instagram_feed">
+            <h2>Instagram Feed</h2>
+            <ul>
+              <li>
+                <img src="./images/instagram_feed_picture.png" alt="Instagram Picture">
+              </li>
+              <li>
+                <img src="./images/instagram_feed_picture.png" alt="Instagram Picture">
+              </li>
+              <li>
+                <img src="./images/instagram_feed_picture.png" alt="Instagram Picture">
+              </li>
+              <li>
+                <img src="./images/instagram_feed_picture.png" alt="Instagram Picture">
+              </li>
+              <li>
+                <img src="./images/instagram_feed_picture.png" alt="Instagram Picture">
+              </li>
+              <li>
+                <img src="./images/instagram_feed_picture.png" alt="Instagram Picture">
+              </li>
+              <li>
+                <img src="./images/instagram_feed_picture.png" alt="Instagram Picture">
+              </li>
+              <li>
+                <img src="./images/instagram_feed_picture.png" alt="Instagram Picture">
+              </li>
+            </ul>
           </div>
         </div>
-      </main>
+        <div class="footer_inner_bottom">
+          <!-- use border for line?? -->
+          <!-- line, by, back to top -->
+          <div class="footer_back_to_top">
 
-      <footer>
-        <div class="footer_inner">
-          <div class="footer_inner_top">
-            <div class="footer_about_us">
-              <div class="footer_about_us_description">
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                  sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                </p>
-                <span class="footer_about_us_description_read_more">Read More</span>
-              </div>
-              <div class="footer_about_us_social_links">
-                <!-- extra div to wrap ul?? -->
-                <ul>
-                  <li>
-                    <img src="./images/find_us_icon.png" alt="Find Us On Facebook">
-                    <div class="footer_social_link_content">
-                      <h3>Find Us</h3>
-                      <h4>On Facebook</h4>
-                    </div>
-                  </li>
-                  <li>
-                    <img src="./images/find_us_icon.png" alt="Find Us On Facebook">
-                    <div class="footer_social_link_content">
-                      <h3>Find Us</h3>
-                      <h4>On Facebook</h4>
-                    </div>
-                  </li>
-                  <li>
-                    <img src="./images/find_us_icon.png" alt="Find Us On Facebook">
-                    <div class="footer_social_link_content">
-                      <h3>Find Us</h3>
-                      <h4>On Facebook</h4>
-                    </div>
-                  </li>
-                  <li>
-                    <img src="./images/find_us_icon.png" alt="Find Us On Facebook">
-                    <div class="footer_social_link_content">
-                      <h3>Find Us</h3>
-                      <h4>On Facebook</h4>
-                    </div>
-                  </li>
-                  <li>
-                    <img src="./images/find_us_icon.png" alt="Find Us On Facebook">
-                    <div class="footer_social_link_content">
-                      <h3>Find Us</h3>
-                      <h4>On Facebook</h4>
-                    </div>
-                  </li>
-                  <li>
-                    <img src="./images/find_us_icon.png" alt="Find Us On Facebook">
-                    <div class="footer_social_link_content">
-                      <h3>Find Us</h3>
-                      <h4>On Facebook</h4>
-                    </div>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div class="footer_latest_products">
-              <h2>Latest Products</h2>
-              <ul>
-                <li>
-                  <img src="./images/jameson_armchair.png" alt="">
-                  <div class="single_latest_product_descriptions">
-                    <h3>Jameson Armchair</h3>
-                    <div class="single_latest_product_rating">
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                    </div>
-                    <p>$124.00<span class="latest_product_new_price">$109.99</span></p>
-                    <!-- <p><s>$124.00</s><span>$109.99</span></p> -->
-                  </div>
-                </li>
-                <li>
-                  <img src="./images/jameson_armchair.png" alt="">
-                  <div class="single_latest_product_descriptions">
-                    <h3>Jameson Armchair</h3>
-                    <div class="single_latest_product_rating">
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                    </div>
-                    <p>$124.00<span class="latest_product_new_price">$109.99</span></p>
-                    <!-- <p><s>$124.00</s><span>$109.99</span></p> -->
-                  </div>
-                </li>
-                <li>
-                  <img src="./images/jameson_armchair.png" alt="">
-                  <div class="single_latest_product_descriptions">
-                    <h3>Jameson Armchair</h3>
-                    <div class="single_latest_product_rating">
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                    </div>
-                    <p>$124.00<span class="latest_product_new_price">$109.99</span></p>
-                    <!-- <p><s>$124.00</s><span>$109.99</span></p> -->
-                  </div>
-                </li>
-                <li>
-                  <img src="./images/jameson_armchair.png" alt="">
-                  <div class="single_latest_product_descriptions">
-                    <h3>Jameson Armchair</h3>
-                    <div class="single_latest_product_rating">
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                    </div>
-                    <p>$124.00<span class="latest_product_new_price">$109.99</span></p>
-                    <!-- <p><s>$124.00</s><span>$109.99</span></p> -->
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="footer_top_sellers">
-              <h2>Top Sellers</h2>
-              <ul>
-                <li>
-                  <img src="./images/green_sofa.png" alt="">
-                  <div class="single_top_seller_descriptions">
-                    <h3>Jameson Armchair</h3>
-                    <div class="single_top_seller_rating">
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                    </div>
-                    <p>$124.00<span class="top_seller_new_price">$109.99</span></p>
-                    <!-- <p><s>$124.00</s><span>$109.99</span></p> -->
-                  </div>
-                </li>
-                <li>
-                  <img src="./images/jameson_armchair.png" alt="">
-                  <div class="single_top_seller_descriptions">
-                    <h3>Jameson Armchair</h3>
-                    <div class="single_top_seller_rating">
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                    </div>
-                    <p>$124.00<span class="top_seller_new_price">$109.99</span></p>
-                    <!-- <p><s>$124.00</s><span>$109.99</span></p> -->
-                  </div>
-                </li>
-                <li>
-                  <img src="./images/jameson_armchair.png" alt="">
-                  <div class="single_top_seller_descriptions">
-                    <h3>Jameson Armchair</h3>
-                    <div class="single_top_seller_rating">
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                    </div>
-                    <p>$124.00<span class="top_seller_new_price">$109.99</span></p>
-                    <!-- <p><s>$124.00</s><span>$109.99</span></p> -->
-                  </div>
-                </li>
-                <li>
-                  <img src="./images/jameson_armchair.png" alt="">
-                  <div class="single_top_seller_descriptions">
-                    <h3>Jameson Armchair</h3>
-                    <div class="single_top_seller_rating">
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                      <span></span>
-                    </div>
-                    <p>$124.00<span class="top_seller_new_price">$109.99</span></p>
-                    <!-- <p><s>$124.00</s><span>$109.99</span></p> -->
-                  </div>
-                </li>
-              </ul>
-            </div>
-            <div class="footer_instagram_feed">
-              <h2>Instagram Feed</h2>
-              <ul>
-                <li>
-                  <img src="./images/instagram_feed_picture.png" alt="Instagram Picture">
-                </li>
-                <li>
-                  <img src="./images/instagram_feed_picture.png" alt="Instagram Picture">
-                </li>
-                <li>
-                  <img src="./images/instagram_feed_picture.png" alt="Instagram Picture">
-                </li>
-                <li>
-                  <img src="./images/instagram_feed_picture.png" alt="Instagram Picture">
-                </li>
-                <li>
-                  <img src="./images/instagram_feed_picture.png" alt="Instagram Picture">
-                </li>
-                <li>
-                  <img src="./images/instagram_feed_picture.png" alt="Instagram Picture">
-                </li>
-                <li>
-                  <img src="./images/instagram_feed_picture.png" alt="Instagram Picture">
-                </li>
-                <li>
-                  <img src="./images/instagram_feed_picture.png" alt="Instagram Picture">
-                </li>
-              </ul>
-            </div>
           </div>
-          <div class="footer_inner_bottom">
-            <!-- use border for line?? -->
-            <!-- line, by, back to top -->
-            <div class="footer_back_to_top">
-
-            </div>
-            <p>With love by <a href="#">Dia Dea</a></p>
-          </div>
+          <p>With love by <a href="#">Dia Dea</a></p>
         </div>
-      </footer>
-    </div>
-    <script src="./scripts/script.js"></script>
-  </body>
+      </div>
+    </footer>
+  </div>
+  <script src="./scripts/script.js">
+  </script>
+</body>
 
-  </html>
+</html>
