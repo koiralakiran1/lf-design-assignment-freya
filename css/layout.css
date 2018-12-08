@@ -2,88 +2,119 @@
     width: 100%;
     overflow: hidden;
   } */
-header {
-  width: 100%;
-  padding: 5px;
-  box-sizing: border-box;
+  header {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
 
-}
-/* BEGIN: NON STICKY NAVIGATION PART*/
-header img.site_logo_image {
-  display: block;
-  width: auto;
-  margin: 5px auto;
-}
+  /* BEGIN: NON STICKY NAVIGATION PART*/
+  header img.site_logo_image {
+    display: block;
+    width: auto;
+    margin: 5px auto;
+  }
 
-.non_sticky_navigation ul li {
-  float: left;
-  width: 33.333332%;
-  font-size: 1.8rem;
-  margin: 5px 0px;
-  text-align: center;
-}
+  .non_sticky_navigation ul li {
+    float: left;
+    width: 33.333332%;
+    font-size: 1.8rem;
+    margin: 5px 0px;
+    text-align: center;
+  }
 
-.non_sticky_navigation ul li.shopping_cart_details i,
-.non_sticky_navigation ul li.shopping_cart_details span{
-  margin-right: 2px;
-}
+  .non_sticky_navigation ul li.shopping_cart_details i,
+  .non_sticky_navigation ul li.shopping_cart_details span {
+    margin-right: 2px;
+  }
 
-sup {
-  font-size: 0.8rem;
-}
+  sup {
+    font-size: 0.8rem;
+  }
 
-.non_sticky_navigation ul li ul, .non_sticky_navigation ul li form {
-  display: none;
-}
-/* END: NON STICKY NAVIGATION PART*/
+  .non_sticky_navigation ul li ul, .non_sticky_navigation ul li form {
+    display: none;
+  }
 
-/* BEGIN: FEATURED PRODUCT PART*/
-.header_featured_products_container, .header_featured_products_inner {
-  overflow: hidden;
-  width: 100%;
-}
-.header_featured_products_inner_slider {
-  min-width: 500%;
-}
-.featured_product {
-  box-sizing: border-box;
-  float: left;
-  width: 20%;
-  border: 3px solid #fac528;
-  padding: 5px 15px;
-  margin: 5px auto;
-}
-.featured_product_overlay_header {
-  border-bottom: 2px solid #1c1105;
-  padding-bottom: 5px;
-}
-.featured_product_overlay_header h2 {
-  font-size: 1.1rem;
-  float: left;
-  padding-top: 8px;
-}
-.featured_product_overlay_header_button button {
-  float: right;
-  background-color: #1c1105;
-  border: none;
-  padding: 5px;
-}
-ul.featured_product_overlay_contents li {
-  clear: both;
-  margin-top: 5px;
-  width: 100%;
-  font-size: 0.9rem;
-}
-ul.featured_product_overlay_contents li img {
-  float: left;
-  width: 14%;
-}
-.featured_product_overlay_content_info {
-  float: left;
-  width: 81%;
-  margin-left: 5%;
-  padding-top: 5px;
-}
-.featured_product_overlay_content_info p {
-  font-size: 0.7rem;
-}
+  /* END: NON STICKY NAVIGATION PART*/
+  /* BEGIN: FEATURED PRODUCT PART*/
+  .header_featured_products_container {
+    overflow: hidden;
+    border: 3px solid #fac528;
+    position: relative;
+  }
+
+  .header_featured_products_inner_slider {
+    min-width: 500%;
+  }
+
+  .featured_product {
+    box-sizing: border-box;
+    float: left;
+    width: 20%;
+    padding: 5px 15px;
+    margin: 5px auto;
+  }
+
+  .featured_product_overlay_header {
+    border-bottom: 2px solid #1c1105;
+    padding-bottom: 5px;
+  }
+
+  .featured_product_overlay_header h2 {
+    font-size: 1.1rem;
+    float: left;
+    padding-top: 8px;
+  }
+
+  .featured_product_overlay_header_button button {
+    float: right;
+    background-color: #1c1105;
+    border: none;
+    padding: 5px;
+  }
+
+  ul.featured_product_overlay_contents li {
+    clear: both;
+    margin-top: 5px;
+    width: 100%;
+    font-size: 0.9rem;
+  }
+
+  ul.featured_product_overlay_contents li img {
+    float: left;
+    width: 14%;
+  }
+
+  .featured_product_overlay_content_info {
+    float: left;
+    width: 81%;
+    margin-left: 5%;
+    padding-top: 5px;
+  }
+
+  .featured_product_overlay_content_info p {
+    font-size: 0.7rem;
+  }
+
+  nav.sticky_navigation ul {
+    display: none;
+  }
+
+  nav.sticky_navigation .sticky_navigation_FAB_icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #1c1105;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .sticky_navigation_FAB_icon a {
+    display: block;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    color: #fac528;
+  }
