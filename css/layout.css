@@ -128,7 +128,7 @@ nav.sticky_navigation .sticky_navigation_FAB_icon {
 
 /* BEGIN: MAIN SECTION */
 main {
-  margin: 5px 0px;
+  margin: 5px 0px 0px;
 }
 .furniture_showcase {
   overflow: hidden;
@@ -554,4 +554,74 @@ span.latest_furniture_item_price {
   font-size: 1.1rem;
   display: block;
   margin-bottom: 4px;
+}
+
+
+
+.contact_us_section {
+  padding: 20px 5px;
+  font-size: 0.8em;
+}
+
+.contact_us_section ul li {
+  width: 46.774192%;
+	float: left;
+	margin-left: 1.612903%;
+	margin-right: 1.612903%;
+  margin-bottom: 15px;
+}
+.contact_us_section ul li dt {
+  margin-bottom: 8px;
+  text-transform: uppercase;
+  font-weight: bolder;
+}
+.contact_us_section ul li:first-child dt {
+  font-size: 1.3rem;
+  font-weight: lighter;
+  margin-bottom: 2px;
+}
+.contact_us_form input,
+.contact_us_form textarea {
+  background: transparent;
+  border: 1px solid lightgrey;
+  color: grey;
+  display: block;
+  width: 96.774194%;
+  margin: 5px 1.612903%;
+  box-sizing: border-box;
+  padding: 10px 15px;
+  text-align: left;
+  font-size: 0.8rem;
+  resize: none;
+}
+.contact_us_form button {
+  border: none;
+  background: #1c1105;
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: white;
+  padding: 10px 25px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+  position: relative;
+  margin-left: 1.612903%;
+}
+.contact_us_form button span {
+  display: inline-block;
+  height: 21px;
+  width: 21px;
+  padding: 3px;
+  box-sizing: border-box;
+  background: #fac012;
+  color: white;
+  position: absolute;
+  bottom: -5px;
+  right: -5px;
+}
+.contact_us_form button:hover {
+  background: #fac012;
+}
+.contact_us_form button:hover span {
+  background: white;
+  color: #fac012;
 }
