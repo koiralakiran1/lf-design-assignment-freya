@@ -44,10 +44,14 @@ sup {
 
 /* END: NON STICKY NAVIGATION PART*/
 /* BEGIN: FEATURED PRODUCT PART*/
+.header_featured_products_inner {
+  border: 4px solid #fac528;
+}
 .header_featured_products_container {
   overflow: hidden;
-  border: 3px solid #fac528;
   position: relative;
+  margin: 10px;
+  padding: 10px;
 }
 
 .header_featured_products_inner_slider {
@@ -101,6 +105,30 @@ ul.featured_product_overlay_contents li img {
 
 .featured_product_overlay_content_info p {
   font-size: 0.8rem;
+}
+
+.pentagon_button_left, .pentagon_button_right {
+  height: 24px;
+  width: 24px;
+  background: url("../images/pentagon_yellow.svg");
+  background-size: 100%;
+  display: inline-block;
+  transform: rotate(35deg);
+}
+.pentagon_button_left i {
+  transform: rotate(-35deg);
+  padding: 7px 5px 5px 7px;
+  color: white;
+}
+.pentagon_button_right i {
+  transform: rotate(-35deg);
+  padding: 6px 6px 6px 9px;
+  color: white;
+}
+.pentagon_button_left:hover, .pentagon_button_right:hover {
+  background: url("../images/pentagon_brown.svg");
+  background-size: 100%;
+  cursor: pointer;
 }
 
 nav.sticky_navigation ul {
@@ -171,12 +199,6 @@ main {
   background-color: #1c1105;
   border: none;
   padding: 5px;
-}
-.furniture_showcase_slider_buttons {
-  height: 50px;
-  width: 100%;
-  background: grey;
-  margin-bottom: 5px;
 }
 .latest_furniture {
   text-align: center;
@@ -769,4 +791,42 @@ footer .footer_inner{
 .footer_inner_bottom p {
   text-align: center;
   padding: 10px 0px;
+}
+.header_featured_products_inner .pentagon_button_left {
+  position: absolute;
+  top: 45%;
+  left: 0px;
+}
+.header_featured_products_inner .pentagon_button_right {
+  position: absolute;
+  top: 45%;
+  right: 0px;
+}
+.furniture_showcase_slider_buttons {
+  height: 24px;
+  width: 95%;
+  box-sizing: border-box;
+  margin: 10px 2.5%;
+  position: relative;
+}
+.furniture_showcase_slider_buttons::after {
+  content: "";
+  width: 100%;
+  height: 1em;
+  border-bottom: 1px solid #e7e7e7;
+  position: absolute;
+  left: 0;
+  top: 20%;
+}
+.furniture_showcase_slider_buttons .pentagon_button_left {
+  position: absolute;
+  left: 40%;
+  top: 3px;
+  z-index: 5;
+}
+.furniture_showcase_slider_buttons .pentagon_button_right {
+  position: absolute;
+  right: 40%;
+  top: 3px;
+  z-index: 5;
 }
