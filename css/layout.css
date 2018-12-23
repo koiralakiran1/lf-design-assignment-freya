@@ -926,3 +926,7 @@ footer .footer_inner {
 .furniture_showcase_slider ul li:hover .furniture_showcase_item_overlay button {
   display: block;
 }
+
+.button_extra_design {
+  display: none;
+}

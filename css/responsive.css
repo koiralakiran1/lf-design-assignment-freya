@@ -510,4 +510,19 @@
   .footer_instagram_feed ul li {
     width: 46%;
   }
+  .latest_posts_date {
+    text-align: center;
+    float: left;
+    display: block;
+  }
+  .latest_posts_date span {
+    display: block;
+  }
+  .latest_posts_content_item_abouts {
+    float: left;
+    margin-left: 10px;
+    clear: none;
+    width: 88%;
+    padding-bottom: 85px;
+  }
 }
