@@ -2,6 +2,7 @@ a {
   color: inherit;
   text-decoration: none;
 }
+
 * {
   margin: 0px;
   padding: 0px;
@@ -12,6 +13,7 @@ a {
   display: table;
   clear: both;
 }
+
 ul li {
   list-style: none;
 }

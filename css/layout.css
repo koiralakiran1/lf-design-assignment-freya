@@ -5,11 +5,13 @@
 * {
   font-family: Arial;
 }
+
 header {
   width: 100%;
   padding: 5px;
   box-sizing: border-box;
 }
+
 button:hover {
   cursor: pointer;
 }
@@ -47,6 +49,7 @@ sup {
 .header_featured_products_inner {
   border: 4px solid #fac528;
 }
+
 .header_featured_products_container {
   overflow: hidden;
   position: relative;
@@ -115,16 +118,19 @@ ul.featured_product_overlay_contents li img {
   display: inline-block;
   transform: rotate(35deg);
 }
+
 .pentagon_button_left i {
   transform: rotate(-35deg);
   padding: 7px 5px 5px 7px;
   color: white;
 }
+
 .pentagon_button_right i {
   transform: rotate(-35deg);
   padding: 6px 6px 6px 9px;
   color: white;
 }
+
 .pentagon_button_left:hover, .pentagon_button_right:hover {
   background: url("../images/pentagon_brown.svg");
   background-size: 100%;
@@ -147,6 +153,7 @@ nav.sticky_navigation .sticky_navigation_FAB_icon {
   font-size: 1.5rem;
   z-index: 20;
 }
+
 .sticky_navigation_FAB_icon a {
   display: block;
   padding-top: 12px;
@@ -158,12 +165,15 @@ nav.sticky_navigation .sticky_navigation_FAB_icon {
 main {
   margin: 5px 0px 0px;
 }
+
 .furniture_showcase {
   overflow: hidden;
 }
+
 .furniture_showcase_slider {
   min-width: 300%;
 }
+
 .furniture_showcase_slider ul li {
   float: left;
   width: 15.591397%;
@@ -172,19 +182,23 @@ main {
   position: relative;
   overflow: hidden;
 }
+
 .furniture_showcase_slider ul li img {
   width: 100%;
   height: auto;
 }
+
 .furniture_showcase_item_overlay {
   width: 100%;
   height: 100%;
 }
+
 .furniture_showcase_item_overlay h4 {
   position: absolute;
   top: 5%;
   left: 5%;
 }
+
 .furniture_shocase_item_overlay_border_design {
   position: absolute;
   width: 100%;
@@ -195,14 +209,17 @@ main {
   padding-left: 20%;
   padding-top: 5%;
 }
+
 .furniture_shocase_item_overlay_border_design button {
   background-color: #1c1105;
   border: none;
   padding: 5px;
 }
+
 .latest_furniture {
   text-align: center;
 }
+
 .latest_furniture h2 {
   font-weight: lighter;
   margin-bottom: 10px;
@@ -211,6 +228,7 @@ main {
   position: relative;
   display: inline-block;
 }
+
 .latest_furniture h2::after {
   content: '';
   position: absolute;
@@ -230,6 +248,7 @@ main {
   margin-top: 5px;
   margin-bottom: 5px;
 }
+
 .latest_furniture ul li .latest_furniture_item_descriptions {
   box-sizing: border-box;
   width: 100%;
@@ -237,14 +256,14 @@ main {
   border-bottom: none;
   padding: 5px;
   position: relative;
-
 }
+
 .latest_furniture ul li .latest_furniture_item_descriptions img {
   width: 100%;
   margin-bottom: 5px;
 }
-.latest_furniture ul li .latest_furniture_item_descriptions
-span.latest_furniture_item_tag {
+
+.latest_furniture ul li .latest_furniture_item_descriptions span.latest_furniture_item_tag {
   position: absolute;
   top: 8px;
   left: 8px;
@@ -256,10 +275,11 @@ span.latest_furniture_item_tag {
   text-transform: uppercase;
   font-weight: bold;
 }
-.latest_furniture ul li .latest_furniture_item_descriptions
-span.latest_furniture_item_tag.new {
+
+.latest_furniture ul li .latest_furniture_item_descriptions span.latest_furniture_item_tag.new {
   background: #fac012;
 }
+
 .latest_furniture ul li .latest_furniture_item_descriptions h3 {
   font-size: 0.8rem;
   letter-spacing: -0.5px;
@@ -267,12 +287,14 @@ span.latest_furniture_item_tag.new {
   text-transform: uppercase;
   margin-bottom: 5px;
 }
+
 .latest_furniture ul li .latest_furniture_item_descriptions p {
   color: grey;
   font-size: 0.8rem;
   font-family: Arial;
   margin-bottom: 5px;
 }
+
 .latest_furniture ul li button {
   width: 100%;
   background: #fac012;
@@ -282,16 +304,17 @@ span.latest_furniture_item_tag.new {
   font-size: 0.8rem;
   text-transform: uppercase;
 }
+
 span.latest_furniture_item_price {
   color: #fac012;
 }
-
 
 .why_choose_youniverse_content {
   width: 100%;
   box-sizing: border-box;
   padding: 15px 10px;
 }
+
 .why_choose_youniverse_content_title h2 {
   text-transform: uppercase;
   font-weight: lighter;
@@ -300,6 +323,7 @@ span.latest_furniture_item_price {
   position: relative;
   margin-bottom: 30px;
 }
+
 .why_choose_youniverse_content_title h2::after {
   content: "";
   display: inline-block;
@@ -310,6 +334,7 @@ span.latest_furniture_item_price {
   left: 0%;
   height: 1em;
 }
+
 .why_choose_youniverse_content_title p {
   font-size: 0.9rem;
   text-align: justify;
@@ -324,16 +349,19 @@ span.latest_furniture_item_price {
   font-size: 0.8rem;
   position: relative;
 }
+
 .why_choose_youniverse_content_dropdown:hover {
   background: #fac012;
   cursor: pointer;
 }
+
 .why_choose_youniverse_content_dropdown:hover span {
   background: white;
   transform: rotate(90deg);
   color: #fac012;
   padding-top: 0px;
 }
+
 .why_choose_youniverse_content_dropdown span {
   font-size: 1.2em;
   font-weight: bold;
@@ -353,6 +381,7 @@ span.latest_furniture_item_price {
   text-align: center;
   padding: 20px 0px;
 }
+
 .latest_posts_section_title h2 {
   text-transform: uppercase;
   font-weight: lighter;
@@ -361,6 +390,7 @@ span.latest_furniture_item_price {
   font-size: 1.3rem;
   position: relative;
 }
+
 .latest_posts_section_title h2::after {
   content: "";
   display: inline-block;
@@ -371,6 +401,7 @@ span.latest_furniture_item_price {
   left: 30%;
   height: 1em;
 }
+
 .latest_posts_content {
   padding: 0px 5px;
   overflow: hidden;
@@ -390,10 +421,12 @@ span.latest_furniture_item_price {
   color: grey;
   margin-bottom: 15px;
 }
+
 .latest_posts_content_image img {
   width: 100%;
   margin-bottom: 2px;
 }
+
 .latest_posts_date {
   display: inline-block;
   text-transform: uppercase;
@@ -401,15 +434,18 @@ span.latest_furniture_item_price {
   padding: 2px;
   margin-bottom: 3px;
 }
+
 .latest_posts_date span {
   font-size: 0.7rem;
   font-weight: bold;
   color: Black;
 }
+
 .latest_posts_date span:first-child {
   font-weight: bold;
   font-size: 1rem;
 }
+
 .latest_posts_content_item_abouts h3 {
   text-transform: uppercase;
   letter-spacing: 1.3px;
@@ -422,12 +458,12 @@ span.latest_furniture_item_price {
   margin-bottom: 2px;
 }
 
-
 .get_our_discounts_right {
   padding: 10px;
   font-size: 0.8rem;
   text-align: justify;
 }
+
 .get_our_discounts_right h2 {
   text-transform: uppercase;
   font-size: 1.2rem;
@@ -436,6 +472,7 @@ span.latest_furniture_item_price {
   margin-top: 10px;
   display: inline-block;
 }
+
 .get_our_discounts_right h2::after {
   content: "";
   width: 50px;
@@ -446,6 +483,7 @@ span.latest_furniture_item_price {
   margin-top: 10px;
   border-bottom: 3px solid white;
 }
+
 .get_our_discounts_form input {
   font-size: 0.8rem;
   font-weight: bold;
@@ -457,10 +495,12 @@ span.latest_furniture_item_price {
   background-color: transparent;
   padding: 10px 15px;
 }
+
 .get_our_discounts_form input::placeholder {
   color: white;
   opacity: 1;
 }
+
 .get_our_discounts_form button {
   border: none;
   background: white;
@@ -473,6 +513,7 @@ span.latest_furniture_item_price {
   margin-bottom: 10px;
   position: relative;
 }
+
 .get_our_discounts_form button span {
   display: inline-block;
   height: 21px;
@@ -485,21 +526,22 @@ span.latest_furniture_item_price {
   bottom: -5px;
   right: -5px;
 }
+
 .get_our_discounts_form button:hover {
   background: #fac012;
   color: white
 }
+
 .get_our_discounts_form button:hover span {
   background: white;
   color: #fac012;
 }
 
-
-
 .newest_collections {
   padding: 5px;
   text-align: center;
 }
+
 .newest_collections h2 {
   display: inline-block;
   text-transform: uppercase;
@@ -509,6 +551,7 @@ span.latest_furniture_item_price {
   margin-bottom: 25px;
   margin-top: 20px;
 }
+
 .newest_collections h2::after {
   content: "";
   display: inline-block;
@@ -519,6 +562,7 @@ span.latest_furniture_item_price {
   left: 35%;
   position: absolute;
 }
+
 .newest_collections nav ul li a {
   width: 19.354838%;
   margin-left: 0.322580%;
@@ -532,6 +576,7 @@ span.latest_furniture_item_price {
   font-weight: bolder;
   margin-bottom: 10px;
 }
+
 .newest_collections nav ul li a:hover {
   background: #fac012;
   color: white;
@@ -539,19 +584,21 @@ span.latest_furniture_item_price {
 }
 
 .newest_collections_content>ul>li {
-	width: 46.774192%;
-	float: left;
-	margin-left: 1.612903%;
-	margin-right: 1.612903%;
-	font-size: 0.8rem;
-	color: white;
-	margin-bottom: 10px;
+  width: 46.774192%;
+  float: left;
+  margin-left: 1.612903%;
+  margin-right: 1.612903%;
+  font-size: 0.8rem;
+  color: white;
+  margin-bottom: 10px;
   position: relative;
 }
+
 .newest_collections_content>ul>li>img {
   width: 100%;
   height: 100%;
 }
+
 .newest_collections_content>ul>li>div {
   display: none;
   padding: 3px 5px;
@@ -564,10 +611,12 @@ span.latest_furniture_item_price {
   height: 100%;
   background: #fac012;
 }
+
 .newest_collections_content>ul>li:hover>div {
   display: block;
   cursor: pointer;
 }
+
 .newest_collections_content>ul>li>div>h4 {
   text-transform: uppercase;
   margin-bottom: 4px;
@@ -575,14 +624,13 @@ span.latest_furniture_item_price {
   letter-spacing: -0.2px;
   font-size: 0.7rem;
 }
+
 .newest_collections_content>ul>li>div>span {
   font-size: 1.1rem;
   display: block;
   margin-bottom: 4px;
   font-weight: bolder;
 }
-
-
 
 .contact_us_section {
   padding: 20px 5px;
@@ -591,21 +639,24 @@ span.latest_furniture_item_price {
 
 .contact_us_section ul li {
   width: 46.774192%;
-	float: left;
-	margin-left: 1.612903%;
-	margin-right: 1.612903%;
+  float: left;
+  margin-left: 1.612903%;
+  margin-right: 1.612903%;
   margin-bottom: 15px;
 }
+
 .contact_us_section ul li dt {
   margin-bottom: 8px;
   text-transform: uppercase;
   font-weight: bolder;
 }
+
 .contact_us_section ul li:first-child dt {
   font-size: 1.3rem;
   font-weight: lighter;
   margin-bottom: 2px;
 }
+
 .contact_us_form input,
 .contact_us_form textarea {
   background: transparent;
@@ -620,6 +671,7 @@ span.latest_furniture_item_price {
   font-size: 0.8rem;
   resize: none;
 }
+
 .contact_us_form button {
   border: none;
   background: #1c1105;
@@ -632,6 +684,7 @@ span.latest_furniture_item_price {
   position: relative;
   margin-left: 1.612903%;
 }
+
 .contact_us_form button span {
   display: inline-block;
   height: 21px;
@@ -644,9 +697,11 @@ span.latest_furniture_item_price {
   bottom: -5px;
   right: -5px;
 }
+
 .contact_us_form button:hover {
   background: #fac012;
 }
+
 .contact_us_form button:hover span {
   background: white;
   color: #fac012;
@@ -656,21 +711,24 @@ footer a:hover {
   color: white;
 }
 
-footer .footer_inner{
+footer .footer_inner {
   padding: 15px 5px 5px;
   font-size: 0.8rem;
   color: grey;
 }
+
 .footer_about_us_description p {
   padding: 0px 5px;
   margin-bottom: 20px;
   text-align: justify;
 }
+
 .footer_about_us_description {
   padding-bottom: 20px;
   border-bottom: 1px solid #281909;
   margin-bottom: 20px;
 }
+
 .footer_about_us_description a {
   display: inline-block;
   color: #fac012;
@@ -679,6 +737,7 @@ footer .footer_inner{
   font-weight: bold;
   text-align: center;
 }
+
 .footer_about_us_description a::before {
   display: inline-block;
   content: ">";
@@ -696,6 +755,7 @@ footer .footer_inner{
   float: left;
   margin: 10px 1.612903%;
 }
+
 .footer_about_us_social_links ul li>i {
   color: white;
   text-align: center;
@@ -707,11 +767,13 @@ footer .footer_inner{
   padding-top: 8px;
   margin-right: 2%;
 }
+
 .footer_about_us_social_links ul li>div {
   font-weight: lighter;
   float: left;
   width: 78.687390%;
 }
+
 .footer_latest_products>h2,
 .footer_top_sellers>h2,
 .footer_instagram_feed>h2 {
@@ -723,6 +785,7 @@ footer .footer_inner{
   margin-bottom: 25px;
   position: relative;
 }
+
 .footer_latest_products>h2::after,
 .footer_top_sellers>h2::after,
 .footer_instagram_feed>h2::after {
@@ -735,34 +798,40 @@ footer .footer_inner{
   position: absolute;
   left: 0%;
 }
+
 .footer_latest_products ul li,
 .footer_top_sellers ul li {
   margin: 0px 1.612903%;
   padding: 15px 0px;
   border-bottom: 1px solid #281909;
 }
+
 .footer_latest_products ul li>img,
 .footer_top_sellers ul li>img {
   width: 16.129032%;
   height: auto;
   float: left;
 }
+
 .footer_latest_products ul li>div,
 .footer_top_sellers ul li>div {
   float: left;
   width: 80.870967%;
   margin-left: 3%;
 }
+
 .footer_latest_products ul li>div>h3,
 .footer_top_sellers ul li>div>h3 {
   font-weight: lighter;
   font-size: 0.8rem;
   margin-bottom: 5px;
 }
+
 .footer_latest_products ul li>div>p>s,
 .footer_top_sellers ul li>div>p>s {
-    margin-right: 5px;
+  margin-right: 5px;
 }
+
 .footer_latest_products ul li>div>p>span,
 .footer_top_sellers ul li>div>p>span {
   display: inline-block;
@@ -770,10 +839,12 @@ footer .footer_inner{
   font-size: 1rem;
   margin-top: 3px;
 }
+
 .footer_latest_products .single_latest_product_rating span.checked,
-.footer_top_sellers .single_top_seller_rating span.checked{
+.footer_top_sellers .single_top_seller_rating span.checked {
   color: #fac012;
 }
+
 .footer_instagram_feed ul li {
   /* float: left;
   width: 30.107526%;
@@ -782,28 +853,34 @@ footer .footer_inner{
   width: 46.774193%;
   margin: 5px 1.612903%;
 }
+
 .footer_instagram_feed ul li img {
   width: 100%;
   height: auto;
 }
+
 .footer_inner_top {
   padding-bottom: 20px;
   border-bottom: 2px solid #281909;
 }
+
 .footer_inner_bottom p {
   text-align: center;
   padding: 10px 0px;
 }
+
 .header_featured_products_inner .pentagon_button_left {
   position: absolute;
   top: 45%;
   left: 0px;
 }
+
 .header_featured_products_inner .pentagon_button_right {
   position: absolute;
   top: 45%;
   right: 0px;
 }
+
 .furniture_showcase_slider_buttons {
   height: 24px;
   width: 95%;
@@ -811,6 +888,7 @@ footer .footer_inner{
   margin: 10px 2.5%;
   position: relative;
 }
+
 .furniture_showcase_slider_buttons::after {
   content: "";
   width: 100%;
@@ -820,6 +898,7 @@ footer .footer_inner{
   left: 0;
   top: 20%;
 }
+
 .furniture_showcase_slider_buttons .pentagon_button_left {
   position: absolute;
   left: 50%;
@@ -827,6 +906,7 @@ footer .footer_inner{
   top: 3px;
   z-index: 5;
 }
+
 .furniture_showcase_slider_buttons .pentagon_button_right {
   position: absolute;
   margin-right: 10px;
@@ -834,12 +914,15 @@ footer .footer_inner{
   top: 3px;
   z-index: 5;
 }
+
 .furniture_showcase_slider ul li .furniture_showcase_item_overlay button {
   display: none;
 }
+
 .furniture_showcase_slider ul li:hover {
   cursor: pointer;
 }
+
 .furniture_showcase_slider ul li:hover .furniture_showcase_item_overlay button {
   display: block;
 }
