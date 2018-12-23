@@ -280,6 +280,7 @@ span.latest_furniture_item_tag.new {
   border: none;
   line-height: 30px;
   font-size: 0.8rem;
+  text-transform: uppercase;
 }
 span.latest_furniture_item_price {
   color: #fac012;
@@ -832,4 +833,13 @@ footer .footer_inner{
   right: 50%;
   top: 3px;
   z-index: 5;
+}
+.furniture_showcase_slider ul li .furniture_showcase_item_overlay button {
+  display: none;
+}
+.furniture_showcase_slider ul li:hover {
+  cursor: pointer;
+}
+.furniture_showcase_slider ul li:hover .furniture_showcase_item_overlay button {
+  display: block;
 }
