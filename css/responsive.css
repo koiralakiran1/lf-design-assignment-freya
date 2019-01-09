@@ -14,8 +14,8 @@
     border-bottom: 1px solid #281909;
   }
 
-  .footer_latest_products ul li>img,
-  .footer_top_sellers ul li>img {
+  .footer_latest_products ul li>a>img,
+  .footer_top_sellers ul li>a>img {
     width: 23.255813%;
     height: auto;
   }
@@ -309,7 +309,7 @@
   .get_our_discounts_left {
     box-sizing: border-box;
     width: 50%;
-    height: 306px;
+    height: 329px;
     float: left;
     background: #323232;
   }
@@ -388,7 +388,7 @@
     margin-bottom: 1px;
   }
 
-  .footer_latest_products ul li>img, .footer_top_sellers ul li>img {
+  .footer_latest_products ul li>a>img, .footer_top_sellers ul li>a>img {
     width: 30%;
   }
 
@@ -447,6 +447,12 @@
   .featured_product_overlay_header_button button .button_extra_design {
     bottom: -3px;
   }
+}
+
+@media only screen and (min-width: 1101px) {
+    .get_our_discounts_left {
+      height: 313px;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -524,5 +530,11 @@
     clear: none;
     width: 88%;
     padding-bottom: 85px;
+  }
+}
+
+@media only screen and (min-width: 2127px) {
+  .get_our_discounts_left {
+    height: 297px;
   }
 }

@@ -756,7 +756,7 @@ footer .footer_inner {
   margin: 10px 1.612903%;
 }
 
-.footer_about_us_social_links ul li>i {
+.footer_about_us_social_links ul li>a>i {
   color: white;
   text-align: center;
   float: left;
@@ -806,8 +806,8 @@ footer .footer_inner {
   border-bottom: 1px solid #281909;
 }
 
-.footer_latest_products ul li>img,
-.footer_top_sellers ul li>img {
+.footer_latest_products ul li>a>img,
+.footer_top_sellers ul li>a>img {
   width: 16.129032%;
   height: auto;
   float: left;
@@ -929,4 +929,16 @@ footer .footer_inner {
 
 .button_extra_design {
   display: none;
+}
+
+.furniture_showcase_slider ul li .furniture_showcase_item_overlay button,
+.featured_product_overlay_header .featured_product_overlay_header_button button {
+  color: white;
+}
+.newest_collections nav ul li a {
+  overflow: hidden;
+}
+.footer_latest_products ul li>a,
+.footer_top_sellers ul li>a {
+  display: block;
 }
