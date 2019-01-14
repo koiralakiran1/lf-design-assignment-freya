@@ -264,7 +264,7 @@
     padding: 0px;
     border-radius: none;
     float: left;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     width: 13.410057%;
     margin-right: 0.875657%;
   }
@@ -468,7 +468,7 @@
   }
 
   .featured_product_overlay_header .featured_product_overlay_header_button button, ul.featured_product_overlay_contents li {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   ul.featured_product_overlay_contents li img {
@@ -502,7 +502,7 @@
   }
 
   .latest_furniture ul li .latest_furniture_item_descriptions h3, .latest_furniture ul li button {
-    font-size: 1.1rem;
+    font-size: 1rem;
   }
 
   .latest_furniture ul li button {
