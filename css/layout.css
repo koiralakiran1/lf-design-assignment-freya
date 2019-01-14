@@ -2,8 +2,13 @@
   width: 100%;
   overflow: hidden;
 } */
+
 * {
   font-family: Arial;
+}
+
+body {
+  font-size: 20px;
 }
 
 header {
@@ -23,7 +28,7 @@ header img.site_logo_image {
   margin: 5px auto;
 }
 
-.non_sticky_navigation ul li {
+.non_sticky_navigation>ul>li {
   float: left;
   width: 33.333332%;
   font-size: 1.8rem;
@@ -137,9 +142,9 @@ ul.featured_product_overlay_contents li img {
   cursor: pointer;
 }
 
-nav.sticky_navigation ul {
+/* nav.sticky_navigation ul {
   display: none;
-}
+} */
 
 nav.sticky_navigation .sticky_navigation_FAB_icon {
   width: 50px;
@@ -152,6 +157,7 @@ nav.sticky_navigation .sticky_navigation_FAB_icon {
   text-align: center;
   font-size: 1.5rem;
   z-index: 20;
+  box-shadow: 4px 4px 5px black;
 }
 
 .sticky_navigation_FAB_icon a {
@@ -941,4 +947,46 @@ footer .footer_inner {
 .footer_latest_products ul li>a,
 .footer_top_sellers ul li>a {
   display: block;
+}
+
+#non_sticky_nav_menu {
+  width: 200px;
+  clear: both;
+  float: none;
+  font-size: 1rem;
+  position: absolute;
+  z-index: 10;
+  right: 0;
+  text-align: center;
+}
+#non_sticky_nav_menu li {
+  padding: 5px 5px;
+  border-bottom: 1px solid grey;
+}
+#non_sticky_nav_menu li:hover {
+  background: grey;
+  color: white;
+}
+#non_sticky_nav_menu {
+  background: lightgrey;
+}
+
+#sticky_navigation_menu {
+  display: none;
+  position: fixed;
+  right: 15px;
+  bottom: 65px;
+  z-index: 10;
+}
+
+#sticky_navigation_menu li{
+  font-size: 0.8rem;
+  margin-bottom: 5px;
+  background: #1c1105;
+  padding: 5px;
+  text-align: center;
+  border-radius: 10px;
+}
+#sticky_navigation_menu li:hover {
+  background:  #fac012;
 }
