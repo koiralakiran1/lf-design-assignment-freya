@@ -909,7 +909,7 @@ footer .footer_inner {
   position: absolute;
   left: 50%;
   margin-left: 10px;
-  top: 3px;
+  top: 8px;
   z-index: 5;
 }
 
@@ -917,7 +917,7 @@ footer .footer_inner {
   position: absolute;
   margin-right: 10px;
   right: 50%;
-  top: 3px;
+  top: 8px;
   z-index: 5;
 }
 

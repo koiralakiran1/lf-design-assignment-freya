@@ -106,13 +106,13 @@
   .furniture_showcase_slider_buttons .pentagon_button_left {
     left: 45%;
     margin-left: -10px;
-    top: -6px;
+    top: 0px;
   }
 
   .furniture_showcase_slider_buttons .pentagon_button_right {
     right: 45%;
     margin-right: -10px;
-    top: -6px;
+    top: 0px;
   }
 
   .furniture_showcase_slider_buttons {
